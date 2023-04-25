@@ -55,7 +55,7 @@ function gotResult(error, results){
         if(results[0].label == "triste"){
             document.getElementById("updateEmoji").innerHTML = "&#128532;";
         }
-        if(results[0].label == "irritado"){
+        if(results[0].label == "bravo"){
             document.getElementById("updateEmoji").innerHTML = "&#128548;";
         }
 
@@ -65,7 +65,7 @@ function gotResult(error, results){
         if(results[1].label == "triste"){
         document.getElementById("updateEmoji2").innerHTML = "&#128532;";
         }
-        if(results[1].label == "irritado"){
+        if(results[1].label == "bravo"){
             document.getElementById("updateEmoji2").innerHTML = "&#128548;";
         }
     }
